@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pastass</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="Bootfront.html" class="w3-bar-item w3-button">Crunchy munch!!</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+    
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="as.jpeg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Pasta</h1><br>
+      <h5 class="w3-center">Here comes</h5>
+      <p class="w3-large">It's impossible to think of Italian food without a warm plate of pasta and some great wine. Made with flour, pasta can be formed into sheets, strips or any other shape. In fact, you'll find over 600 pasta shapes across the globe. The famous Italian dish - pasta is one of the best comfort meals. It is a no-fuss dish that can be ready in minutes and does not require genius cooking skills.  This simple dish offers a lot of room for creativity. You can experiment with pasta recipes using different kinds of pastas like fusilli, penne or spaghetti, different sauces such as tomato sauce, creamy white sauce or the meaty bolognese and a huge variety of ingredients ranging from herbs to veggies and cheese</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Bread Basket</h4>
+      <p class="w3-text-grey">In a deep broad bowl add salt to the flour and then add water and knead a soft dough.Roll it in to square or round chapatti and cut into thin strips with a sharp knife.
+        Put these pieces in boiling water carefully and boil them for 8 - 10 minutes.Remove from flame and let it stay for 5 -10 minutes.Carefully drain out the hot water and add cold water to the pasta. Strain the pasta again. Pasta is ready to be put into the sauce.
+      </p><br>
+    
+      <h4>Prepare the Sauce:</h4>
+      <p class="w3-text-grey">Steam tomatoes and fresh ginger for 5 – 7 minutes.Grind to a smooth puree and strain it.Add basil, cinnamon powder, rock salt and black pepper and let it simmer on medium flame for 2 minutes.</p><br>
+    
+      <h4>Prepare the dish:</h4>
+      <p class="w3-text-grey">Steam the chopped carrots, capsicum, zucchini, pumpkin and avocado for a few minutes.Mix the steamed vegetables with the tangy tomato sauce. Leave to stand for ten minutes.Toss pasta with the tangy tomato sauce and steamed vegetable mixture.Garnish with fresh basil leaves and serve immediately.</p><br>
+      
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="pic1.webp" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+
+</body>
+</html>
