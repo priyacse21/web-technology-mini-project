@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <style>
+        body {
+          font-family: Arial;
+          margin: 0;
+        }
+        .checked {
+  color: yellow;
+  size: 10px;
+}
+        .header {
+          padding: 2px;
+          text-align: center;
+          background-image: url("pic5.webp");
+    
+          color:crimson;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: 10px;
+        }
+        table, th, td {
+           border: 0px solid black;
+       }
+       table {
+           border-spacing: 5px;
+       }
+       th{
+           text-align: center;
+       }
+      .quotes{
+        background-image: linear-gradient(white); 
+        font-size: 25px;
+  border-style:double;
+
+      }
+
+        </style>
+</head>
+<body>
+    <div class="header">
+        <h1><b>Fried Food Recipes To Make Any Night More Fun</b></h1>
+        <p><i>Extra crispy, please.</i></p>
+      </div>
+      <hr>
+      
+     <h1 style="color:blueviolet;">List of fried foods</h1>
+      <div class="table-responsive">
+        <table class="table">
+            <table class="table table-bordered table-sm-2 table-hover">
+              <thead class="thead-dark">
+                  <tr class="table-primary">
+                      <th><b>ITALY </B></th>
+                      <th><b>UNITED STATES</b></th>
+                      <th><B>JAPAN</B></th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr class="danger">
+                  <td>Banana Chips</td>
+                  <td>Beignets</td>
+                  <td>Blooming Onion</td>
+                </tr>
+                  <tr class="primary">
+                      <td>Crocche</td>
+                      <td>Pizza fritta</td>
+                      <td>Fritto misto</td>
+                    
+                  </tr>
+                  <tr class="info">
+                    <td>Cheese Curds</td>
+                    <td>Chicken Tenders</td>
+                    <td>Churro</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>Crab Puff</td>
+                    <td>Deep-Fried Mac N Cheese</td>
+                    <td>Croquettes</td>
+                  </tr>
+                  <tr class="active">
+                    <td>Egg Rolls</td>
+                    <td>French Fries</td>
+                    <td>French Toast</td>
+                  </tr>
+                  <tr class="success">
+                    <td>Fried Mushrooms</td>
+                    <td>Fritter</td>
+                    <td>General Tso's Chicken</td>
+                  </tr>
+                  <tr class="danger">
+                      <td>Tater tots</td>
+                      <td>Fried Chicken</td>
+                      <td>Apple Fritters</td>
+                     
+                  </tr>
+                  <tr class="primary">
+                      <td>kaki fry</td>
+                      <td>Tori katsu</td>
+                      <td>Ebifurai</td> 
+                  </tr>
+              </tbody>
+            </table>
+          </table> 
+    
+        <div class="quotes">
+          <h2 style="text-align: center;font-family:Garamond;color: darkslateblue"> <h1>Easy Fall Recipies</h1>
+        </div>
+          <table class="table">
+            <table class="table table-bordered table-sm-2 table-hover">
+              <tbody>
+                <tr>
+                  <td><div class="col-md-2"style="spa">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/ham-cheese-croquetas-e314bba.jpg?quality=90&webp=true&resize=750,681" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                  <td><h1>Ham & cheese croquetas</h1>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <ul>
+                      <li><h2>Level: Easy</h2></li>
+                      <li><h2>Total: 20 min</h2></li>
+                      <li><h2>Prep: 10 min</h2></li>
+                      <li><h2>Cook: 10 min</h2></li>
+                     </ul></td>
+                   
+                 
+              </tr>
+
+                  <tr>
+                      <td><div class="container1"style="spa">
+                        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/crisp-fried-rabbit-ddc119b.jpg?quality=90&webp=true&resize=750,681" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Crisp-fried rabbit with herb mayonnaise</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 20 min</h2></li>
+                          <li><h2>Prep: 5 min</h2></li>
+                          <li><h2>Cook: 10 min</h2></li>
+                         </ul></td>
+                       
+                     
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="container1"style="spa">
+                        <img src="th (21).jpg" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Chorizo scotch quail’s eggs</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 25 min</h2></li>
+                          <li><h2>Prep: 10 min</h2></li>
+                          <li><h2>Cook: 15 min</h2></li>
+                         </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="container1"style="spa">
+                        <img src="we.jpg" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Chorizo scotch quail’s panner</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 25 min</h2></li>
+                          <li><h2>Prep: 10 min</h2></li>
+                          <li><h2>Cook: 15 min</h2></li>
+                         </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="container1"style="spa">
+                        <img src="you.jpg" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Chicken pakora recipe</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 25 min</h2></li>
+                          <li><h2>Prep: 10 min</h2></li>
+                          <li><h2>Cook: 15 min</h2></li>
+                         </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="container1"style="spa">
+                        <img src="D:\nodedb\.vscode\fish.jpg" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Pan fried crispy Fish</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 25 min</h2></li>
+                          <li><h2>Prep: 10 min</h2></li>
+                          <li><h2>Cook: 15 min</h2></li>
+                         </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="container1"style="spa">
+                        <img src="th (21).jpg" class="img-circle" alt="Cinque Terre" width="350" height="350"></div></td>
+                      <td><h1>Chicken jalfrezi recipe</h1>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <ul>
+                          <li><h2>Level: Easy</h2></li>
+                          <li><h2>Total: 25 min</h2></li>
+                          <li><h2>Prep: 10 min</h2></li>
+                          <li><h2>Cook: 15 min</h2></li>
+                         </ul>
+                    </td>
+                  </tr>
+                  
+          </table>  
+
+          
+</body>
+</html>
