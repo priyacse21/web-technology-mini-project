@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    
+    <title>Document</title>
+    <script>
+        function start()
+{
+	window.alert("Welcome you to crunchy munch!!");
+} 
+ 
+window.addEventListener( "load", start,false);
+function start()
+	{
+	document.getElementById("move").addEventListener("mousemove", moveone, false );
+	document.getElementById("move").addEventListener("mouseout", leaveone, false );
+	}
+
+	function moveone()
+	{
+	document.getElementById("move").innerHTML ="CRUNCHY MUNCH!!";
+	}
+	function leaveone()
+	{
+	document.getElementById("move").innerHTML ="FOODY WORLD";
+	}
+	window.addEventListener( "load", start, false );
+  
+	
+
+	function bubble( e )
+	{
+		alert( "This will bubble." );
+		e.cancelBubble = false;
+	 } 
+
+	function noBubble( e )
+	{
+		alert( "This will not bubble." );
+		e.cancelBubble = true;
+	 } 
+
+	function registerEvents()
+	{
+	document.addEventListener( "click", documentClick, false );
+	document.getElementById( "bubble" ).addEventListener("click", bubble, false );
+	document.getElementById( "noBubble" ).addEventListener("click", noBubble, false );
+	} 
+	window.addEventListener( "load", registerEvents, false );
+
+
+    </script>
+    <style>
+        body{
+          background-size: cover;
+          background-image: linear-gradient(skyblue,plum);
+          background-attachment: fixed;
+          height: fit-content;
+        }
+        .all-browsers {
+           padding: 1px;
+           background-image: linear-gradient(white,skyblue);
+           text-align: CENTER;
+       }
+       quotes{
+       
+        background-attachment: fixed;
+       }
+      .move{
+        text-align: ;
+      }
+      
+                    
+footer {
+ text-align: center;
+ padding: 3px;
+ background-color:black;
+ color: white;
+}
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+            </button>
+            <h2 style="text-align: center;font-family:b;color:black; font-size: 50px;"id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Crunchy Munch!!<hr></h2>
+          
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar"></div>
+            <ul class="nav navbar-nav">
+                <li class=""><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">New Recipies<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                    <li><a href="bootfry.html">FRIED</a></li>
+                    <li><a href="juice.html">BEVARAGES</a></li>
+                    <li><a href="#">PASTAS</a></li>
+                    </ul>
+                </li>
+                <li><a href="bootabt.html">About</a></li>
+                <li><a href="gallery .html">Galleries</a></li>
+            </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="bootform.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="quotes">
+  
+      <h2  id ="move" style="text-align: center;font-family:b;color:black; font-size: 50px;">Crunchy Munch!!</h2>
+     
+        <h2 style="text-align: center;font-family:Garamond;color: white; "><b>The Power of Food is really spiritual.<br> It not only brings the whole family together on<br> the same table but brings the whole world together</b></h2>
+        </div><hr><br>
+        
+<div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="pastass.html" target="_blank">
+            <img src="pic1.webp"  class="img-thumbnail" alt="Lights"style="width:100%">
+            <div class="caption">
+              <p<h3 style="text-align: center;font-family:Courier New"> <B>PASTASS</B></h3></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="veg.html" target="_blank">
+            <img src="pic4.jpeg"  class="img-thumbnail" alt="Cinque Terre" alt="Nature"style="width:100%">
+            <div class="caption">
+              <p<h3 style="text-align: center;font-family:Courier New"> <B>VEG STUFF BUN</B></h3></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="jui.html" target="_blank">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.D-tRlscQXMfhhIWM45VjsAHaLH&pid=Api&P=0" class="img-thumbnail" alt="Nature" style="width:100%">
+            <div class="caption">
+              <p<h3 style="text-align: center;font-family:Courier New"> <B>FRESH JUICE</B></h3></p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<h2 id = "bubble" style="font-family:Garamond;color:crimson";></style>Recipes By Popular category</h2><hr>
+<ol type="i">
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Quick and easy</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Meal Prep</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Vegetarian</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Salads</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Dinner</B></li><br>
+</ol>
+<h2 id = "noBubble" style="font-family:Garamond;color:crimson";></style>Recipes By Meal Type</h2><hr>
+<ol type="i">
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Breakfast</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Lunch</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Dinner</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Snacks</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Drinks</B></li><br>
+</ol>
+<h2 style="font-family:Garamond;color:crimson";></style>Recipies By Course</h2><hr>
+<ol type="i">
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Appetizer</B></li><br>
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Salads</B></li><br>
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Desserts</B></li><br>
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Baking</B></li><br>
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Sandwiches</B></li><br>
+    <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Snacks</B></li><br>
+   <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Soups</B></li><br>
+
+</ol>
+<h2 style="font-family:Garamond;color :crimson";></style>Recipies BY Season</h2><hr>
+<ol type="i">
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Spring</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Fall</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Summer</B></li><br>
+  <li style="font-family: Georgia, 'Times New Roman', Times, serif;"> <B>Winter</B></li><br>
+</ol><hr>
+
+
+
+<div class="quotes">
+  <h2 style="text-align: center;font-family:Garamond;color: darkslateblue">OUR FAVORITE DINNER RECIPIES</h2>
+  </div><br>
+
+<div class="container download" id="downloads">
+  <div class="row1">
+      <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.S0W3tZVoh1FnmAjjVoFbNQHaEx&pid=Api&P=0"  class="img-thumbnail" alt="Lights" width="6550px" height="85000px">
+          <div class="caption">
+            <p<h3 style="text-align: center;font-family:Courier New"> <B>ROASTED MASALA DOSA</B></h3></p>
+          </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+     <img src="https://tse4.mm.bing.net/th?id=OIP.-wmArOy2M734Xp9neyDNOwHaEo&pid=Api&P=0"  class="img-thumbnail" alt="Lights" width="65500px" height="850000px">
+      <div class="caption">
+        <p<h3 style="text-align: center;font-family:Courier New"> <B>PINK VELVET CAKE</B></h3></p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">  
+          <img src="C:\Users\DELL\OneDrive\Desktop\sem notes\4th sem\web\rrr.jfif"  class="img-thumbnail" alt="Lights"style="width:100% height: 10px;">
+      <div class="caption">
+        <p<h3 style="text-align: center;font-family:Courier New"> <B>VEG PULAW</B></h3></p>
+      </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.K4m-EDu_PQIE3TBJCBcVtwHaEs&pid=Api&P=0"  class="img-thumbnail" alt="Lights"style="width:100% height: 10px;">
+      <div class="caption">
+        <p<h3 style="text-align: center;font-family:Courier New"> <B>RASGULLA</B></h3></p>
+      </div>
+      </div>
+  </div>
+</div>
+<hr>
+
+
+<article class="all-browsers">
+  <h1>PRIVACY POLICY</h1><h1>DISCLAIMER</h1><h1>COPYRIGHT</h1>
+  <article class="browser">
+    <h2>@COPYRIGHT 2022 Crunchy munch!!</h2>
+    <p></p>
+  </article>
+  
+<footer>
+  <table class="table table-dark table-striped">
+    <thead>
+      <tr>
+ <p><b>Follow us on</b></p> 
+    <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwj9lJGlobX9AhXSlUsFHZzOCTEYABAAGgJzZg&sig=AOD64_3FBTzSC2qrBvEVfl1w13WA9YD6lQ&q&adurl&ved=2ahUKEwjB6oqlobX9AhWxRmwGHZ6LADMQ0Qx6BAgJEAE">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.MuO_sCDT49APDO3ha5yyxAHaE8&pid=Api&P=0" width="35" height="35"/>
+      </a>
+    <a href="https://twitter.com/login?lang=en"> 
+       <img src="twit.jfif" width="35" height="35"/>
+    </a>
+    <a href="https://www.instagram.com/"> 
+      <img src="insta.jfif" width="35" height="35"/>
+   </a>
+
+      </tr>
+    </thead>
+  </table>
+    <p>Author: priyadharshini.k<br>
+    <a href="dharshini862003@gmail.com">dharshini862003@gmail.com</a></p>
+  </footer> 
+  
+  <script>
+      function mouseOver() {
+      document.getElementById("demo").style.color = "red";
+    }
+    
+    function mouseOut() {
+      document.getElementById("demo").style.color = "black";
+    }
+    var seconds = 0;
+function startTimer()
+{
+  window.setInterval( "updateTime()", 1000 );
+} 
+
+
+function updateTime()
+{
+   ++seconds;
+  document.getElementById( "soFar" ).innerHTML = seconds;
+ } 
+window.addEventListener( "load", startTimer, false );
+    </script>
+  <p>Seconds you have spent viewing this page so far:
+
+    <span id = "soFar">0</span>
+    
+    </p>  
+</body>
+</html>
 
