@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VEG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+</style>
+</head>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="Bootfront.html" class="w3-bar-item w3-button">Crunchy munch!!</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ingredients</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+    
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="th (25).jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Stuffed Bun</h1><br>
+      <h5 class="w3-center">FOR STUFFING</h5>
+      <p class="w3-large">1 red onion,<BR> chopped
+        2 tablespoons garlic cloves,<BR>  chopped
+        4 button mushrooms, <BR> chopped
+        1 teaspoon black pepper powder,<BR> 
+        1/4 teaspoon garam masala powder (optional)<BR> 
+        1 small green bell pepper, grated<BR> 
+        1 small yellow bell pepper, grated<BR> 
+        2 carrots, grated<BR> 
+        1 cup mozzarella cheese, cubed<BR> 
+        1/2 cup green peas,<BR> 
+        1/2 cup corn kernels,<BR> 
+        4 tablespoons tomato ketchup,<BR> 
+        salt as per taste,<BR> 
+        1 teaspoon oregano</p>
+        <h5 class="w3-center">FOR BUN</h5>
+        <p class="w3-large">
+            1 packet active dry yeast<BR>
+1/2 cup warm water<BR>
+2 cups all-purpose flour (maida)<BR>
+1/2 teaspoon salt<BR>
+1 tablespoon sugar<BR>
+2 tablespoons oil<BR>
+1 tablespoon oregano
+        </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>How to make curry filling</h4>
+      <p class="w3-text-grey">Heat oil in a pan, and add chopped onions to it. Saute onions for 2 minutes, and add chopped garlic cloves to it.<BR>Cook for 2 more minutes, and add all the vegetables except mushrooms.Cook for 5 minutes.<BR> Now add chopped mushrooms, salt, pepper powder, garam masala powder and mix well<BR>.Cook for another 3 minutes, and add tomato ketchup to it. Mix well, and cook for 2 more minutes.<BR>Add chopped mozzarella cheese, oregano, and cook for 2 minutes. Mix well and remove from heat. Your curry stuffing is ready. Keep it aside to cool down.
+       
+      </p><br>
+    
+      <h4>How to Make Curry Stuffed Bun</h4>
+      <p class="w3-text-grey">
+        Take a bowl, and add 1/2 cup warm water to it. Add sugar, yeast, salt, and mix gently.<BR> Keep aside for 10 minutes, or till yeast becomes frothy.In a large mixing bowl, add all-purpose flour and oil.<BR> Mix well, and add the yeast mixture to it. Knead the mixture to make a smooth dough.Apply a few drops of oil on the dough surface, and cover the dough bowl with a plastic wrap.<BR> Keep this mixing bowl in a warm place for 2 to 4 hours.Knead the dough again, and divide the dough into 10 balls of equal portions.Roll each ball into a circle of about 4 to 5 inches in diameter.<BR> Apply a little oil to the dough circle, and place 2 tbsp curry filling in the center.Close the sides of the circle together carefully, and shape into a ball again.Repeat the same process with all the dough balls.<BR> Brush little oil on top of the ball and sprinkle oregano.Sprinkle some flour on the baking tray, and place all the stuffed dough balls<BR>.Bake dough balls for 15 to 20 minutes, or till they turn slightly brown.Serve hot with ketchup and tea. Enjoy!
+      </p><br>
+    
+      
+      
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="th (26).jpg"class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+
+</body>
+</html>
