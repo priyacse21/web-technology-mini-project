@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <style>
+     
+        .main4{
+            font-size: 100px;
+            color:aliceblue;
+          font-style: oblique;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my favorite</title>
+
+</head>
+<h1  style="color:darkcyan;" id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Grilled Sandwich Recipe<hr></h1>
+
+<body>
+    <script>
+    function mouseOver() {
+      document.getElementById("demo").style.color = "red";
+    }
+    
+    function mouseOut() {
+      document.getElementById("demo").style.color = "black";
+    }
+    window.addEventListener( "load", start, false );
+	
+	function start()
+	{
+	document.getElementById("picture").addEventListener("mouseover", over, false );
+	document.getElementById("picture").addEventListener("mouseout", out, false );
+	}
+
+	function over()
+	{
+	 document.getElementById("picture").setAttribute( "src", "SAND.jfif");
+	}
+
+	function out()
+	{
+	document.getElementById("picture").setAttribute( "src", "sandwich-02.jpg");
+	}
+    </script>
+    
+    </body>
+<body> 
+ 
+    <img align ="right" src="https://www.vegrecipesofindia.com/wp-content/uploads/2014/01/grilled-sandwich-2-1153x1536.jpg"  alt = "Heading Image"id = "picture" height="500px" width="600px" >
+    <div class="main 4">
+
+    <p style="color:cornflowerblue;"> 1. Steam or boil 1 medium beetroot and 2 small to medium potatoes in steamer or pressure cooker.<br> If pressure cooking, then cook them with 1.5 to 2 cups water for 2 whistles.</p>
+   <p  style="color:cornflowerblue;"> 2. Chop the cucumber, tomatoes and onions in thin round slices. Peel and slice the beet and potatoes thinly.</p> 
+   <p  style="color:cornflowerblue;"> 3. Take 1 cup tightly packed coriander leaves, ½ teaspoon cumin powder, 1 teaspoon chopped green chillies or<br> serrano pepper (1 to 2 green chilies)and 1 to 2 chopped garlic cloves (small to medium-sized) in a chutney grinder jar or food processor.</p>
+   <p  style="color:cornflowerblue;"> 4. Grind the chutney ingredients till smooth. If you cannot grind, then add 1 or 2 tablespoons of water.<br> I did not add water as there was enough moisture after rinsing the coriander leaves to help them grind to a smooth chutney.</p>
+   <p  style="color:cornflowerblue;"> 5. Collect the coriander chutney in a bowl. Check the taste and add more salt if required<br> Cover and keep the chutney aside if you are making sandwiches immediately,otherwise<mark>cover and refrigerate.</mark> </p>
+   <p  style="color:cornflowerblue;"> 6. Using the bread slice of your choice (whole wheat, white or brown), spread a relatively liberal<br> and even layer of butter on the inside slices of your bread.</p>
+   <p  style="color:cornflowerblue;"> 7. On one slice, layer rounds of potato. Sprinkle with a pinch or two of chaat masala and roasted cumin powder</p>
+   <p  style="color:cornflowerblue;"> 8. Layer with tomato, onion, cucumber slices and beet slices (if using them).<br> Add another pinch or two of chaat masala and roasted cumin powder, and finish with some black salt</p>
+   <p style="color:cornflowerblue;"> 9. Top with your other slice of bread, chutney side in. Spread a thin layer of butter on the outside layer of the top bread slice</p>
+   <p  style="color:cornflowerblue;"> 10. Preheat your grill. When warm, flip the sandwich so the butter side goes down. Butter the outside of the now top piece of bread</p>
+   <p  style="color:cornflowerblue;"> 11. Close the grill lid and grill for 2 to 3 minutes, until golden and crispy.</p>
+   <p  style="color:cornflowerblue;"> 12. Serve grilled sandwich hot or warm with a side of <mark>green chutney or tomato ketchup.</mark> </p>
+    </div>
+    <table border="5">
+        <caption><b>Table of ingredients prices</b></caption>
+            <thead>
+            <tr>
+                <th>ingredients</th>
+                <th>price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bread</td>
+                <td>30</td>
+                <td rowspan="3">Total:290</td>
+            </tr>
+            <tr>
+                <td>Vegetaables</td>
+                <td>140</td>
+               
+            </tr>
+
+            <tr>
+                <td>Masala</td>
+            <td>120</td>
+            </tr>  
+        </tbody>
+    </table>
+</table
+
+    
+
+    <form>
+        <p style="font-size:25px;border-style:groove;background-color:aliceblue;color:darkred; border-width: 5px;"> Did you like?<br>
+         <input type="radio" id="html" name="fav_language" value="HTML">
+         <label for="html">YES</label><br>
+         <input type="radio" id="css" name="fav_language" value="CSS">
+         <label for="css">NO</label><br>
+        </p>
+        
+        </form> 
+    
+</body>
+</html>
