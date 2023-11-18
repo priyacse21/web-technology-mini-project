@@ -1,0 +1,254 @@
+
+<html>
+  <script>
+    window.addEventListener( "load", start, false );
+function start()
+{
+document.getElementById("myform").addEventListener("submit",subfun, false );
+
+}
+    function subfun() 
+{ window.alert("Are you Sure to submit");
+  window.alert("Thank you");
+}
+  </script>
+	<style>
+		.main-box {
+  background-color: #fff;
+  width: 400px;
+  margin-left: 35vw;
+  margin-top: 10vw;
+  margin-bottom: 20vw;
+  box-shadow: 10px, 10px;
+  border-width: 5px;
+}
+.main-box{
+  border-style: solid;
+  border-width: 5px;
+  
+
+  padding: 40px;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%,-50%);
+  background-image: url("pic2.webp");
+ 
+  border-radius: 25px;
+
+}
+.h1{
+	text-align: center;
+  text-shadow: 3px 3px 3px grey; 
+  padding-top: 25px;
+}
+.form-control{
+	margin-left: 1vw;
+  margin-right: 1vw;
+  width: 340px;
+  padding: 12px 22px;
+  position: relative;
+}
+h1{
+	
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	color: crimson;
+}
+h2{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	color: crimson;
+
+}
+.btn{
+  border: 2px solid aqua;
+ 
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 15px 50px;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: larger;
+  color:black;
+ 
+}
+.btn1{
+	border: 2px solid red;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 15px 40px;
+  outline: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: larger;
+  background-color:#fff;
+  color:black;
+
+}
+
+	</style>
+<body>
+<form id="myform" method="post">
+	<div class="main-box">
+		<h1>LOGIN</h1>
+		
+	Name<input type="text" name="name" class="form-control" placeholder="enter name"value=""/><br/><br>
+	Email<input type="email" name="email" class="form-control" placeholder="enter email"value=""/><br/><br>
+	Password<input type="password" class="form-control" name="password"placeholder="password"  value=""/><br/><br>
+	<input type="submit" name="login" class="btn" id="sub" value="Login" formaction="http://localhost:3000/login"/>
+	<h2><hr>or</h2>
+	<input type="submit" name="signin" class="btn1" value="sign in" formaction="bootform.html"/>
+	</div><br><br>
+	<h1></h1>
+			
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 30px solid #f1f1f1;}/*border thickness for username and password*/
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;  /*to increase the label*/
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+.container {
+  padding: 50px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+  
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+ 
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
+
+
+
+<!--html>
+	<title>
+		login page
+	</title>
+	<style>
+		.body{
+			background-color: antiquewhite;
+			font-family: 'Courier New', Courier, monospace;
+			text-decoration: dotted;
+			text-align: center;
+		}
+		.bone{
+			text-decoration: dotted;
+			text-align: center;
+			padding: 16px;
+
+
+		}
+	</style>
+	<body>
+		<form method="post">
+			<div class="main-box">
+			<div class="bone">
+				USER NAME<label><input type="text"  placeholder="name"></label>
+				EMAIL<label><input type="email" placeholder="priya@gmail.com"></label>
+				PASSWORD<label><input type="password" placeholder="password"></label>
+				<button type="submit">Login</button>
+				</div>
+			</div>
+		</form>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
